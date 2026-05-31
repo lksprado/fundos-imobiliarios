@@ -188,3 +188,7 @@ logs/
 # End of https://www.toptal.com/developers/gitignore/api/dbt
 
 data/
+
+# Generated report outputs (the .py scripts are tracked, but not the outputs)
+reports/*.csv
+reports/*.html
